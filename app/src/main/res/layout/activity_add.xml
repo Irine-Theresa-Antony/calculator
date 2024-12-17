@@ -7,6 +7,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <TextView
+        android:background="#A07C74"
         android:layout_width="match_parent"
         android:layout_height="30dp"
 
@@ -16,7 +17,7 @@
         android:layout_marginBottom="40dp"
         android:textColor="#ffffff"
         android:textSize="20dp"
-        android:background="#878889"/>
+       />
 
     <TextView
         android:layout_width="match_parent"
@@ -96,6 +97,8 @@
         android:layout_height="wrap_content"
         android:text="SUBMIT"
         android:layout_margin="5dp"
+        android:textStyle="bold"
+        android:background="#b5bcc2"
         android:id="@+id/sub"/>
 
     <androidx.appcompat.widget.AppCompatButton
@@ -103,7 +106,10 @@
         android:layout_height="wrap_content"
         android:text="GO BACK TO MENU"
         android:layout_margin="5dp"
-        android:id="@+id/go"/>
+        android:id="@+id/go"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:background="#3a5667"/>
 
 
 
